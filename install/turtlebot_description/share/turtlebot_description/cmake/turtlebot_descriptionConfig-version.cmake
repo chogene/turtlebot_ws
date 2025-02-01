@@ -1,0 +1,1 @@
+/home/chogene/turtlebot_ws/build/turtlebot_description/ament_cmake_core/turtlebot_descriptionConfig-version.cmake
