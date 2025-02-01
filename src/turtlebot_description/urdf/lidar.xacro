@@ -5,7 +5,7 @@
             <geometry>
                 <cylinder radius = "${wheel_radius /2}" length = "${wheel_length}"/>
             </geometry>
-            <origin xyz = "0 0 ${wheel_length / 2}" rpy = "0 0 0" />
+            <origin xyz = "0 0 0" rpy = "0 0 0" />
             <material name = "red" />
         </visual>
         <collision>
@@ -21,6 +21,37 @@
     <joint name = "laser_joint" type = "fixed">
         <parent link = "base_link" />
         <child link = "laser_frame" />
-        <origin xyz = "${base_length / 3} 0 ${base_height}" rpy = "0 0 0"/>
+        <origin xyz = "${base_length / 3} 0 ${wheel_length / 2 + base_height}" rpy = "0 0 0"/>
     </joint>
+
+    <!--
+    <plugin
+        filename="gz-sim-sensors-system"
+        name="gz::sim::systems::Sensors">
+        <render_engine>ogre2</render_engine>
+    </plugin>
+    -->
+     <gazebo reference="laser_frame">
+        <sensor name="laser" type="gpu_lidar">
+            <pose> 0 0 0 0 0 0 </pose>
+            <always_on>true</always_on>
+            <visualize>true</visualize>
+            <update_rate>10</update_rate>
+            <topic>scan</topic>
+            <gz_frame_id>laser_frame</gz_frame_id>
+             <lidar>
+                <scan>
+                   <horizontal>
+                   <samples>360</samples>
+                   <min_angle>-3.14</min_angle>
+                   <max_angle>3.14</max_angle>
+                   </horizontal>
+                </scan>
+                <range>
+                   <min>0.3</min>
+                   <max>12</max>
+                </range>
+             </lidar>
+        </sensor>
+    </gazebo>
 </robot>
