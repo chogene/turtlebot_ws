@@ -4,7 +4,10 @@
 /home/chogene/turtlebot_ws/install/turtlebot_description/share/turtlebot_description//urdf/mobile_base.xacro
 /home/chogene/turtlebot_ws/install/turtlebot_description/share/turtlebot_description//urdf/turtlebot.urdf.xacro
 /home/chogene/turtlebot_ws/install/turtlebot_description/share/turtlebot_description//rviz/urdf_config.rviz
-/home/chogene/turtlebot_ws/install/turtlebot_description/share/turtlebot_description//launch/display.launch.xml
+/home/chogene/turtlebot_ws/install/turtlebot_description/share/turtlebot_description//launch/robot.launch.py
+/home/chogene/turtlebot_ws/install/turtlebot_description/share/turtlebot_description//launch/rsp.launch.py
+/home/chogene/turtlebot_ws/install/turtlebot_description/share/turtlebot_description//config/gazebo_bridge.yaml
+/home/chogene/turtlebot_ws/install/turtlebot_description/share/turtlebot_description//worlds/obstacles.world
 /home/chogene/turtlebot_ws/install/turtlebot_description/share/ament_index/resource_index/package_run_dependencies/turtlebot_description
 /home/chogene/turtlebot_ws/install/turtlebot_description/share/ament_index/resource_index/parent_prefix_path/turtlebot_description
 /home/chogene/turtlebot_ws/install/turtlebot_description/share/turtlebot_description/environment/ament_prefix_path.sh

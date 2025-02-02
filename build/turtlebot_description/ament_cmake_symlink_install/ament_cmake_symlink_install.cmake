@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "urdf" "meshes" "rviz" "launch" "DESTINATION" "share/turtlebot_description/")
-ament_cmake_symlink_install_directory("/home/chogene/turtlebot_ws/src/turtlebot_description" DIRECTORY "urdf" "meshes" "rviz" "launch" "DESTINATION" "share/turtlebot_description/")
+# install(DIRECTORY "urdf" "meshes" "rviz" "launch" "config" "worlds" "DESTINATION" "share/turtlebot_description/")
+ament_cmake_symlink_install_directory("/home/chogene/turtlebot_ws/src/turtlebot_description" DIRECTORY "urdf" "meshes" "rviz" "launch" "config" "worlds" "DESTINATION" "share/turtlebot_description/")
 
 # install(FILES "/home/chogene/turtlebot_ws/build/turtlebot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/turtlebot_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/chogene/turtlebot_ws/src/turtlebot_description" FILES "/home/chogene/turtlebot_ws/build/turtlebot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/turtlebot_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

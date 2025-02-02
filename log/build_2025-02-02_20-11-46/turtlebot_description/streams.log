@@ -1,0 +1,18 @@
+[0.033s] Invoking command in '/home/chogene/turtlebot_ws/build/turtlebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chogene/moveit_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chogene/turtlebot_ws/build/turtlebot_description -- -j8 -l8
+[0.130s] Invoked command in '/home/chogene/turtlebot_ws/build/turtlebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chogene/moveit_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chogene/turtlebot_ws/build/turtlebot_description -- -j8 -l8
+[0.160s] Invoking command in '/home/chogene/turtlebot_ws/build/turtlebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chogene/moveit_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chogene/turtlebot_ws/build/turtlebot_description
+[0.183s] -- Install configuration: ""
+[0.184s] -- Execute custom install script
+[0.184s] -- Symlinking: /home/chogene/turtlebot_ws/install/turtlebot_description/share/turtlebot_description//urdf/];common_properties.xacro;gazebo_mobile.xacro;lidar.xacro;mobile_base.xacro;turtlebot.urdf.xacro
+[0.215s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:302 (message):
+[0.216s]   Could not create symlink
+[0.217s]   '/home/chogene/turtlebot_ws/install/turtlebot_description/share/turtlebot_description//urdf/];common_properties.xacro;gazebo_mobile.xacro;lidar.xacro;mobile_base.xacro;turtlebot.urdf.xacro'
+[0.217s]   pointing to
+[0.217s]   '/home/chogene/turtlebot_ws/src/turtlebot_description/urdf/];common_properties.xacro;gazebo_mobile.xacro;lidar.xacro;mobile_base.xacro;turtlebot.urdf.xacro'
+[0.217s] Call Stack (most recent call first):
+[0.217s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:96 (_ament_cmake_symlink_install_create_symlink)
+[0.217s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.217s]   cmake_install.cmake:46 (include)
+[0.217s] 
+[0.217s] [0m
+[0.219s] Invoked command in '/home/chogene/turtlebot_ws/build/turtlebot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chogene/moveit_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chogene/turtlebot_ws/build/turtlebot_description
