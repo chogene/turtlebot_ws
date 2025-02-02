@@ -1,4 +1,4 @@
-ros2 launch my_robot_bringup my_display.xml
+ros2 launch turtlebot_description robot.launch.py
 
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
