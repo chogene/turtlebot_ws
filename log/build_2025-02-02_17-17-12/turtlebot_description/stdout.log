@@ -1,0 +1,12 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/chogene/turtlebot_ws/build/turtlebot_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/chogene/turtlebot_ws/install/turtlebot_description/share/turtlebot_description//urdf/common_properties.xacro
+-- Up-to-date symlink: /home/chogene/turtlebot_ws/install/turtlebot_description/share/turtlebot_description//urdf/gazebo_mobile.xacro
+-- Up-to-date symlink: /home/chogene/turtlebot_ws/install/turtlebot_description/share/turtlebot_description//urdf/lidar.xacro
+-- Up-to-date symlink: /home/chogene/turtlebot_ws/install/turtlebot_description/share/turtlebot_description//urdf/mobile_base.xacro
+-- Up-to-date symlink: /home/chogene/turtlebot_ws/install/turtlebot_description/share/turtlebot_description//urdf/turtlebot.urdf.xacro
